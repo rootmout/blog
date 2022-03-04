@@ -1,0 +1,4 @@
+baseURL = 'https://blog.kelbert.fr'
+languageCode = 'en-us'
+title = 'Pierre KELBERT'
+theme = 'PaperMod'
