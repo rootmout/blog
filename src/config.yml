@@ -1,0 +1,21 @@
+---
+baseURL: 'https://blog.kelbert.fr'
+languageCode: 'en-us'
+title: "Pierre tiny blog's"
+theme: 'PaperMod'
+params:
+    homeInfoParams:
+        Title: Welcome
+        Content: A place to share my projects :)
+
+    socialIcons: # optional
+        - name: "twitter"
+          url: "https://twitter.com/PierreKelbert"
+        - name: linkedin
+          url: https://www.linkedin.com/in/p-kelbert/
+        - name: stackoverflow
+          url: https://stackoverflow.com/users/13191116/rootmout
+        - name: github
+          url: https://github.com/rootmout
+        - name: gitlab
+          url: https://gitlab.com/rootmout
