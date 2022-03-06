@@ -10,6 +10,9 @@
 # This template uses one generic job with conditional builds
 # for the default branch and all other (MR) branches.
 
+variables:
+  GIT_SUBMODULE_STRATEGY: normal
+
 docker-build:
   # Use the official docker image.
   image: docker:latest
