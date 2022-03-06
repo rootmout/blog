@@ -3,4 +3,4 @@ title = "Contacts"
 slug = "contact"
 +++
 
-Bientôt disponible.
+Si vous souhaitez me contacter, vous pouvez passer par linkedin ou bien par mail : root@mout.ch

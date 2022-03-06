@@ -133,9 +133,9 @@ url = "https://stackoverflow.com/users/13191116/rootmout"
 languageName = ":uk:"
 
 [[languages.en.menu.main]]
-name = "About me"
+name = "About"
 weight = 1
-url = "about-me/"
+url = "about/"
 
 [[languages.en.menu.main]]
 name = "Blog"
@@ -163,9 +163,9 @@ description = "Pierre 'rootmout' KELBERT"
 keywords = "blog, développeur, personnel"
 
 [[languages.fr.menu.main]]
-name = "À propos de moi"
+name = "À propos"
 weight = 1
-url = "about-me/"
+url = "about/"
 
 [[languages.fr.menu.main]]
 name = "Blog"
