@@ -14,3 +14,5 @@ If you see an improvement to be done or an error to be corrected, I will gladly 
 
 ---
 This blog is generated with [Hugo](https://gohugo.io/) and the theme [Hugo-Coder](https://github.com/luizdepra/hugo-coder). The sources are available on github [rootmout/blog (github)](https://github.com/rootmout/blog). The hosting is done on the mout.ch infrastructure, [rootmout/mou-ch (github)](https://github.com/mout-ch)
+
+Status page : [mout-ch (uptimerobot)](https://stats.uptimerobot.com/2Arn9TVxA9)
