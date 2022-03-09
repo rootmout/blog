@@ -4,7 +4,7 @@ slug = "projects"
 +++
 
 ## 2022 : mout.ch
-Personal infrastructure. Composed of 3 computers to realize a Ceph/HC Consul cluster, 1 server for a k3s to deploy mout.ch applications and a Raspberry Pi 4 Model B 4 Go acting as a gate. Everything is deployed with Ansible.
+Personal infrastructure. Composed of 3 computers to realize a Ceph/HC Consul cluster, 1 server for a k3s to deploy mout.ch applications and a Raspberry Pi 4 Model B 4 Go acting as a gate. Everything is deployed with Ansible. See the dedicated article [migration to my new infra](/posts/migration-to-my-new-infra/) for more informations.
 
 Source code : [mout.ch (github)](https://github.com/mout-ch)
 

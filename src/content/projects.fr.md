@@ -4,7 +4,7 @@ slug = "projects"
 +++
 
 ## 2022 : mout.ch
-Infrastructure personnelle. Composé de 3 ordinateurs pour réaliser un cluster Ceph/HC Consul, de 1 serveur pour un k3s afin de déployer les applications de mout.ch et une Raspberry Pi 4 Model B 4 Go faisant office de gate. Le tout est déployé avec Ansible.
+Infrastructure personnelle. Composé de 3 ordinateurs pour réaliser un cluster Ceph/HC Consul, de 1 serveur pour un k3s afin de déployer les applications de mout.ch et une Raspberry Pi 4 Model B 4 Go faisant office de gate. Le tout est déployé avec Ansible. Pour plus d'informations, consultez l'article dédié [migration vers ma nouvelle infra](/fr/posts/migration-to-my-new-infra/).
 
 Code Source : [mout.ch (github)](https://github.com/mout-ch)
 
