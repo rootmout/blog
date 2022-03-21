@@ -36,7 +36,7 @@ Technos: [C](https://en.wikipedia.org/wiki/C_(programming_language)), [Docker](h
 ## Avril 2019 : Cocovoit
 Création d'un site web dont l'application est comparable à celle de blablacar. L'objectif étant de pouvoir proposer des voyages en spécifiant départ/arrivée/prix/nbr de places et pouvoir réserver les voyages mis en ligne par d'autres utilisateurs. Une fois le voyage réservé un qr code est envoyé et permet au conducteur de le scanner au départ afin d'en vérifier l'authenticité.
 
-Démo : bientôt disponible
+Démo : [cocovoit.lab.kelbert.fr](https://cocovoit.lab.kelbert.fr/)
 
 CoAuteurs : [Clément DUPLAND](https://www.linkedin.com/in/cldupland/), [Hugo DI GUARDIA](https://www.linkedin.com/in/hdiguardia/)
 
@@ -48,8 +48,6 @@ Technos : [Symfony](https://symfony.com/), [MySQL](https://en.wikipedia.org/wiki
 ## Avril 2019 : Le petit monde
 Création de trois versions d'un site web, chacune des versions utilisant l'un des outils suivant : Wordpress, cakephp, symfony.
 
-Démo : bientôt disponible
-
 CoAuteurs : [Hellois BARBOSA](https://www.linkedin.com/in/hellois-barbosa/), Joséphine MENEGAIN
 
 Code source : [lepetitmonde-symfony (github)](https://github.com/rootmout-epita/lepetitmonde-symfony), [lepetitmonde-cakephp (github)](https://github.com/rootmout-epita/lepetitmonde-cakephp)
@@ -58,7 +56,7 @@ Code source : [lepetitmonde-symfony (github)](https://github.com/rootmout-epita/
 ## Mars 2019 : EpiBank
 Premier projet d'application informatique, introduction aux frameworks avec Symfony et au développement de UI (User Interface) avec Bootstrap. Système très sommaire de comptes avec possibilité de faire des transferts entre ceux existants sur le site.
 
-Démo: bientôt disponible
+Démo: [epibank.lab.kelbert.fr](https://epibank.lab.kelbert.fr)
 
 CoAuteurs : [Clément DUPLAND](https://www.linkedin.com/in/cldupland/), [Hugo DI GUARDIA](https://www.linkedin.com/in/hdiguardia/)
 
