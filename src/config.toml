@@ -115,7 +115,7 @@ url = "https://gitlab.com/rootmout"
 name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 3
-url = "https://twitter.com/PierreKelbert"
+url = "https://twitter.com/rootmout"
 
 [[params.social]]
 name = "LinkedIn"
