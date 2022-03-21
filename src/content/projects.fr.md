@@ -34,7 +34,7 @@ Technos: [C](https://en.wikipedia.org/wiki/C_(programming_language)), [Docker](h
 
 ---
 ## Avril 2019 : Cocovoit
-Création d'un site web dont l'application est comparable à celle de blablacar. L'objectif étant de pouvoir proposer des voyages en spécifiant départ/arrivée/prix/nbr de places et pouvoir réserver les voyages mis en ligne par d'autres utilisateurs. Une fois le voyage réservé un qr code est envoyé et permet au conducteur de le scanner au départ afin d'en vérifier l'authenticité.
+Création d'un site web dont l'application est comparable à celle de blablacar. L'objectif étant de pouvoir proposer des voyages en spécifiant départ/arrivée/prix/nbr de places et pouvoir réserver les voyages mis en ligne par d'autres utilisateurs. Une fois le voyage réservé un qr code est envoyé et permet au conducteur de le scanner au départ afin d'en vérifier l'authenticité. Voir [Présentation du projet cocovoit](/fr/posts/presentation-of-the-cocovoit-project/).
 
 Démo : [cocovoit.lab.kelbert.fr](https://cocovoit.lab.kelbert.fr/)
 
