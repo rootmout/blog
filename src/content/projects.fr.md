@@ -78,7 +78,7 @@ Technos: [C++](https://en.wikipedia.org/wiki/C%2B%2B)
 ## Janvier-Avril 2018 : Through
 Projet EPITA. Création d'un jeu vidéo dont le thème porte sur la résolution de labyrinthes. Utilisation de Blender pour la modélisation des cartes, Unity pour le moteur de jeu et Photon pour le multijoueur. Le jeu (uniquement compatible avec windows) peut-être téléchargé sur le site.
 
-Démo : http://throughgame.fr/
+Démo : https://throughgame.kelbert.fr
 
 CoAuteurs : [Sébastien HOEHN](https://www.linkedin.com/in/sebastien-hoehn/), [Morgan VATERKOWSKI](https://www.linkedin.com/in/morgan-vaterkowski/), [Léo HANTSCH](https://www.linkedin.com/in/l%C3%A9o-hantsch/), [Anass KASMI](https://www.linkedin.com/in/anass-kasmi-10704520b/)
 
