@@ -16,9 +16,9 @@ author = "Pierre 'rootmout' KELBERT"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Pierre 'rootmout' KELBERT"
 keywords = "blog,developer,personal"
-info = ["5th year student @ EPITA"]
-avatarURL = "images/ron-cropped.jpeg"
-#gravatar = "john.doe@example.com"
+info = ["DevOps Engineer @ Taurus SA"]
+#avatarURL = "images/ron-cropped.jpeg"
+gravatar = "root@mout.ch"
 dateFormat = "January 2, 2006"
 since = 2022
 # Git Commit in Footer, uncomment the line below to enable it
