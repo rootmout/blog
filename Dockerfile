@@ -1,4 +1,4 @@
-FROM ubuntu:21.10 as BUILD
+FROM ubuntu:22.04 as BUILD
 
 # install syntax highlighting
 RUN apt-get -y update
@@ -13,7 +13,7 @@ RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C /usr/local/bin/
 COPY src /source
 RUN hugo --source=/source/ --destination=/public/
 
-FROM nginx:1.21.6-alpine
+FROM nginx:1.25.3-alpine
 RUN apk --update add curl bash
 RUN rm /etc/nginx/conf.d/default.conf
 COPY modules/blog.kelbert.fr.conf /etc/nginx/conf.d/blog.kelbert.fr.conf
