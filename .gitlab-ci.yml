@@ -12,13 +12,9 @@ build-site:
     - apk add --no-cache curl tar
     - curl -fsSL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" | tar -xz -C /usr/local/bin hugo
   script:
-    - hugo --source=src/ --destination="$CI_PROJECT_DIR/public/"
+    - hugo --source=src/ --destination="$CI_PROJECT_DIR/blog/"
   artifacts:
     name: "site-$CI_COMMIT_REF_SLUG"
     paths:
-      - public/
+      - blog/
     expire_in: 3 months
-  only:
-    - /^v(\d+\.)?(\d+\.)?(\*|\d+)$/
-  except:
-    - branches
