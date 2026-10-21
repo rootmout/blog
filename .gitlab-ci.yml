@@ -1,25 +1,23 @@
 variables:
-  GIT_SUBMODULE_STRATEGY: normal
+  GIT_SUBMODULE_STRATEGY: recursive
+  HUGO_VERSION: "0.93.2"
 
 stages:
   - build
 
-docker-build:
-  # Use the official docker image.
-  image: docker:latest
+build-site:
+  image: alpine:3.19
   stage: build
-  services:
-    - docker:dind
   before_script:
-    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-  # Default branch leaves tag empty (= latest tag)
-  # All other branches are tagged with the escaped branch name (commit ref slug)
+    - apk add --no-cache curl tar
+    - curl -fsSL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" | tar -xz -C /usr/local/bin hugo
   script:
-    - tag=":$CI_COMMIT_TAG"
-    - echo "start building image $CI_REGISTRY_IMAGE${tag}"
-    - docker build --pull -t "$CI_REGISTRY_IMAGE${tag}" .
-    - docker push "$CI_REGISTRY_IMAGE${tag}"
-  # Run this job in a branch where a Dockerfile exists
+    - hugo --source=src/ --destination="$CI_PROJECT_DIR/public/"
+  artifacts:
+    name: "site-$CI_COMMIT_REF_SLUG"
+    paths:
+      - public/
+    expire_in: 3 months
   only:
     - /^v(\d+\.)?(\d+\.)?(\*|\d+)$/
   except:
